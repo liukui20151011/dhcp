@@ -104,6 +104,12 @@ ISC DHCP is open source software maintained by Internet Systems
 Consortium.  This product includes cryptographic software written
 by Eric Young (eay@cryptsoft.com).
 
+		Changes since 4.4.2b1 (Bug Fixes)
+
+- Corrected buffer pointer logic in dhcrelay functions that manipulate
+  agent relay options.
+  [#71]
+
 		Changes since 4.4.1 (New Features)
 
 - A new configuration parameter, ping-cltt-secs (v4 operation only), has
